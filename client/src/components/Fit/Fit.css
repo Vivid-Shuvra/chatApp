@@ -1,0 +1,58 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(49, 49, 54);
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+.heading {
+    color:rgb(230, 132, 132);
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    padding-bottom: 10px;
+  }
+  .pHeading {
+    color:rgb(109, 98, 170);
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+    padding-bottom: 10px;
+  }
+  .player{
+      padding-bottom: 10px;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      padding: 10px;
+      border-color: black;
+  }
+  .btn{
+      border: 1px solid #3498db;
+      background: none;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-family: "montserrat";
+      cursor: pointer;
+      margin: 10px;
+      transition: 0.8s;
+      position: relative;
+      overflow: hidden;
+  }
+  .btn1, .btn2{
+      color:#3498db;
+  }
+  .btn1:hover, .btn2:hover{
+      color: #fff;
+  }
+  .line{
+      color: cornflowerblue;
+  }
