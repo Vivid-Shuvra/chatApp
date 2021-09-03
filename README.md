@@ -1,2 +1,2 @@
 # chatApp 
-# helps you to create your wn virtual world
+ helps you to create your own virtual world
